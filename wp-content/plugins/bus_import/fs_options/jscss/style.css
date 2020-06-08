@@ -1,0 +1,46 @@
+.noHeader tbody tr th {
+	display:none;
+}
+
+a.upButton {
+	width: 16px;
+	height: 16px;
+	background: url(../images/up_16.png) top center no-repeat;
+	display: block;
+	float:left;
+}
+a.downButton {
+	width: 16px;
+	height: 16px;
+	background: url(../images/down_16.png) top center no-repeat;
+	display: block;
+	float:left;
+}
+a.leftButton {
+	width: 16px;
+	height: 16px;
+	background: url(../images/left_16.png) top center no-repeat;
+	display: block;
+	float:left;
+}
+a.rightButton {
+	width: 16px;
+	height: 16px;
+	background: url(../images/right_16.png) top center no-repeat;
+	display: block;
+	float:left;
+}
+a.removeButton {
+	width: 16px;
+	height: 16px;
+	background: url(../images/delete_16.png) top center no-repeat;
+	display: block;
+	float:left;
+}
+div.indentArrow {
+	width: 20px;
+	height: 20px;
+	background: url(../images/indent-arrow.png) top center no-repeat;
+	display: block;
+	float:left;
+}

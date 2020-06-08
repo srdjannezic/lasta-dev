@@ -1,0 +1,138 @@
+@media screen and (max-width: 767px) {
+
+    html h1 {font-size: 36px !important;}
+    html h2 {font-size: 24px !important;}
+    html h3 {font-size: 18px !important;}
+    html h4 {font-size: 16px !important;}
+    html h5 {font-size: 16px !important;}
+    html p {font-size: 15px !important;}
+    html #crumbs a,html span.current,html #crumbs {font-size: 15px !important;}
+    html th {font-size: 15px !important;}
+    html td {font-size: 15px !important;}
+
+    html div#home-offer {
+        margin-top: 0px;
+    }
+    #bus-lines .nav-item {
+        width: 100%;
+    }
+    html input.swap {
+        background-image: url(/wp-content/uploads/2020/03/strelice-mob.png);
+    }
+    html input.swap:hover, input.swap.rotate {
+        background-image: url(/wp-content/uploads/2020/03/strelice-crvene-mob.png);
+    }
+    html div#results {
+        margin-top: 0px;
+    }
+    .form-group {
+        position: relative;
+    }
+    html input.swap {
+        position: absolute;
+        right: 10px;
+        top: 23px;
+    }
+    html input#autocomplete-do-domaci, html input#autocomplete-do-medjunarodni, html input#autocomplete-do-gradski {
+        padding-left: 0.75em;
+    }
+    html #bus-lines .search-wrapper {
+        padding-right: 0 !important;
+    }
+    html #bus-lines select {
+        margin-left: 0 !important;
+    }
+    #bus-lines input, #bus-lines select {
+        margin-bottom: 0.25rem;
+    }
+    #bus-lines .form-row {
+        margin-left: auto !important;
+    }
+    div#bootstrap-nav-collapse {
+        background: #042767eb;
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        z-index: 99;
+    }
+    div#bootstrap-nav-collapse ul li a {
+        color: #fff;
+    }
+    div#bootstrap-nav-collapse ul li {
+        padding: 5px 15px;
+    }
+    .mega-menu-item h2 {
+        font-size: 16px !important;
+        color: #fff;
+    }
+    .mega-menu-item ul {
+        padding-left: 0 !important;
+    }
+    div#bootstrap-nav-collapse {
+        padding-left: 0 !important;
+    }
+    .mega-menu-wrapper.dropdown-menu.depth_0 {
+        background-color: transparent;
+    }
+    html .menu-item:hover a, html .current-menu-item.active a {
+        text-decoration: none;
+        color: #fff !important;
+    }
+    html .dropdown-item:hover, html .dropdown-item:focus {
+        background-color: transparent;
+    }
+    input#autocomplete-od-domaci,
+     input#autocomplete-do-domaci, 
+     input#autocomplete-od-medjunarodni, 
+     input#autocomplete-do-medjunarodni,
+     input#autocomplete-gradski {
+        padding-right: 20%;
+    }
+    html .ajax-result {
+        max-width: 240px;
+    }
+    nav.navbar {
+        padding-bottom: 0.5rem !important;
+    }
+    div#bootstrap-nav-collapse {
+        padding: 1rem !important;
+    }
+    b.caret {
+        margin-left: 0.5rem;
+        width: 35px;
+        padding: 5px 10px;
+    }
+    .dropdown .dropdown-menu {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    
+        max-height: 0;
+        display: block;
+        overflow: hidden;
+        opacity: 0;
+    }
+    #menu-glavni-meni .dropdown-menu {
+        padding: 0;
+    }
+    
+    .dropdown.show .dropdown-menu { /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
+        max-height: 100vh;
+        opacity: 1;
+    }
+    #form-autocomplete-od-domaci .ajax-result, #form-autocomplete-od-medjunarodni .ajax-result {
+        z-index: 9;
+    }
+    #home-offer .btn {
+        align-self: flex-end !important;
+        min-width: 175px;
+    }
+    html #gradski-results {
+        margin-top: -290px;
+    }
+    html #gradski-search .facetwp-facet.facetwp-facet-gp_grad.facetwp-type-hierarchy_select {
+        margin-bottom: 0.5rem;
+    }
+}

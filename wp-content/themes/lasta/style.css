@@ -1,0 +1,994 @@
+/*
+ Theme Name:   Lasta
+ Theme URI:    https://titandizajn.com/
+ Description:  A theme for Lasta doo.
+ Author:       Srdjan Nikolin
+ Author URI:   https://titandizajn.com/
+ Template:     twentyseventeen
+ Version:      1.0.0
+*/
+
+body {font-family: 'StagSansBook',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+h1, h2, h3, h4, h5, h3 a, h2 a, h4 a, .kontakt-adrese thead th {color: #083f88;}
+h1 {font-size: 44px !important;font-family: 'StagSansBook' !important;}
+h2, h2 a, h2 span {font-size: 30px !important;font-family: 'StagSansMedium' !important;font-weight: 400 !important;}
+h3 {font-size: 22px !important;font-family: 'StagSansMedium' !important;}
+h4 {font-size: 18px !important;font-family: 'StagSansMedium' !important;}
+h5 {font-size: 18px !important;font-family: 'StagSansBook' !important;text-transform: none;letter-spacing: unset;}
+p {font-size: 15px !important;font-family: 'StagSansBook' !important;line-height: 1.3;color: #000;}
+h4, h5 {padding-top: 0;margin-bottom: 0;}
+#crumbs a, span.current, #crumbs {font-size: 14px !important;font-family: 'StagSansBook' !important;color: #083f88 !important;}
+.page-template-kontakt th, dt {font-size: 18px !important;font-family: 'StagSansMedium' !important;font-weight: 400;}
+.page-template-kontakt td,  dd {font-size: 18px !important;font-family: 'StagSansBook' !important;color: #083f88;}
+ol li,ul li {font-size: 15px !important;font-family: 'StagSansBook' !important;color: #000;}
+.menu-item:hover a, .current-menu-item.active a{text-decoration: none;color: #ff0000 !important;}
+.navbar-nav .mega-menu-item .dropdown-item a[aria-current="page"] {color: #ff0000 !important;}
+.py-6 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.bg-blue {
+    background: #2470d5;
+}
+.bg-d-blue {
+    background: #083f88;
+}
+
+
+/* Results page */
+
+div#results {
+    margin-top: -230px;
+}
+
+tr.info-line {
+    background: #fff;
+    color: #ff0000;
+}
+
+
+
+/* BUTTONS */
+
+
+
+html .btn-danger, .btn-primary, .submit-button, .button  {
+    background: #ed1c24 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    font-family: 'StagSansBook' !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    padding: 8px 50px !important;
+}
+ html .btn-danger:hover, .btn-primary:hover, .submit-button:hover, button:hover, #bus-lines button:hover {
+    color: #083f88 !important;
+}
+.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
+    border: none;
+}
+
+
+
+/* CONTENT */
+
+html .container {max-width: 1200px;}
+div#content {
+    padding: 50px 0px;
+}
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/* Home */
+
+#home-offer .card-header.rounded-0.text-center {
+    min-height: 65px;
+}
+#home-news .card {
+    border: none !important;
+}
+#home-news .card-header h5, #home-offer .card-header h5{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 16px !important;
+}
+#home-news .card-header a:hover, #home-news .card-header h5:hover, #home-offer .card-header a:hover, #home-offer .card-header h5:hover{
+    color: #083f88 !important;
+    text-decoration: none;
+}
+#home-news .card-header {
+    background: #2470d5;
+    min-height: 65px;
+}
+#home-offer .card-header {
+    background: #2470d5;
+}
+#home-offer .card-body {
+    padding: 15px;
+}
+html .nav-tabs .nav-link.active {
+    background: #083f88;
+    border-top: 4px solid #2470d5 !important;
+}
+html .nav-tabs .nav-link {
+    background: #2470d5;
+    border-top: 4px solid #ff0000 !important;
+}
+#bus-lines .tab-content {
+    background: #083f88;
+}
+#bus-lines input::placeholder, #bus-lines .form-control {
+    color: #fff !important;
+    font-family: 'StagSansBook' !important;
+    min-height: 40px;
+}
+a#gradskop-tab {
+    border: none;
+}
+a#medjunarodni-tab {
+    border: none;
+}
+a#domaci-tab {
+    border: none;
+}
+#bus-lines .nav-tabs {
+    border-bottom: none;
+}
+/* div#home-news {
+    margin-top: -150px;
+} */
+#ui-datepicker-div {
+    background: #fff;
+    font-weight: 600;
+}
+#bus-lines table.ui-datepicker-calendar {
+    background: #fff;
+}
+#bus-lines ul.nav.nav-tabs {
+    background: #083f88;
+}
+
+#bus-lines ul.nav.nav-tabs .nav-item:nth-child(2) {
+    border-left: 1px solid #083f88;
+    border-right: 1px solid #083f88;
+}
+#bus-lines input#datepicker {
+    text-align: center;
+    background-image: url(/wp-content/uploads/2020/02/ui-icon-calendar.png);
+    background-position: left 10px center;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+#bus-lines select {
+    text-align: center;
+    background-image: url(/wp-content/uploads/2020/02/sat.png);
+    background-position: left 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
+}
+
+input.swap {
+    background-image: url(/wp-content/uploads/2020/03/strelice.png);
+    width: 40px !important;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    background-size: contain;
+}
+input.swap:hover, input.swap.rotate {
+    background-image: url(/wp-content/uploads/2020/03/strelice-crvene.png);
+}
+input.swap {
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    outline: 0;
+  }
+  input.swap.rotate {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  #searchclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}
+input[type="search"]::-webkit-search-cancel-button {
+
+    /* Remove default */
+    -webkit-appearance: none;    
+    content: url(/wp-content/uploads/2020/03/close.png)  
+  }
+.form-control:focus {
+    color: #b3cdf0 !important;
+}
+.form-control {
+    color: #b3cdf0;
+}
+#bus-lines input, #bus-lines #datepicker, #bus-lines select {
+    background-color: #2470d5;
+    border: none;
+}
+div#home-offer {
+    margin-top: -240px;
+}
+#carousel .slides li {
+    cursor: pointer;
+}
+
+/* headlines with lines */
+
+.decorated{
+    overflow: hidden;
+    text-align: center;
+}
+.decorated > span{
+   position: relative;
+   display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 2px solid;
+   width: 70px; /* half of limiter*/
+   margin: 0 20px;
+}
+.decorated > span:before{
+   right: 100%;
+}
+.decorated > span:after{
+   left: 100%;
+}
+
+
+/* Header */
+
+.jumbotron-fluid {
+    background-position: right;
+}
+header .navbar-nav li a {text-transform: uppercase;}
+/**Mega Menu **/
+.navbar .container {
+    position: relative;
+}
+.navbar-nav, .navbar .collapse, .navbar-nav li {
+  position: static;
+}
+.menu-item-has-children, .menu-item-has-children .dropdown-menu {
+  left: auto;
+}
+.menu-item-has-children .dropdown-menu {
+  width: auto !important;
+}
+.page-title {text-transform: uppercase;}
+
+
+
+
+/* Make dropdown visible on hover */
+
+@media (min-width: 767px) {
+    .dropdown > .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: auto;
+      z-index: 1000;
+      float: none;
+      min-width: 10rem;
+      padding: 1rem;
+      list-style: none;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      opacity: 0;
+      margin-top: 10px !important;
+      display: block;
+      visibility:hidden;
+      min-width: 150px;
+      transition: all  0.2s ease-in-out;
+    }
+    .dropdown:hover > .dropdown-menu {
+      visibility:visible;
+      display: block;
+      opacity: 1;
+      margin-top: 1px !important; 
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      transition: all  0.2s ease-in-out;
+    }
+      .mega-menu-parent.dropdown .dropdown-menu {
+      position: absolute;
+      left:  0;
+    }
+    .mega-menu-wrapper.dropdown-menu {
+        width: 100%;background: #f1f2f2;
+    }
+    .navbar-nav .mega-menu-item .dropdown-item a {
+        display: block;
+        color: #2470d5 !important;
+        border-bottom: 1px solid #2470d5;
+        text-transform: uppercase;
+        padding: 0 10px;
+    }
+    .formcraft-css .fc-form.fc-form-3 .form-element .form-element-html input[type="password"]:focus, .formcraft-css .fc-form.fc-form-3 .form-element .form-element-html input[type="email"]:focus, .formcraft-css .fc-form.fc-form-3 .form-element .form-element-html input[type="tel"]:focus, .formcraft-css .fc-form.fc-form-3 .form-element .form-element-html input[type="text"]:focus, .formcraft-css .fc-form.fc-form-3 .form-element .form-element-html textarea:focus, .formcraft-css .fc-form.fc-form-3 .form-element .form-element-html select:focus, .formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="password"]:focus, .formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="email"]:focus, .formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="tel"]:focus, .formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="text"]:focus, .formcraft-css .fc-form.fc-form-1 .form-element .form-element-html textarea:focus, .formcraft-css .fc-form.fc-form-1 .form-element .form-element-html select:focus {
+        border-color: #205294 !important;
+    } 
+    .dropdown-item:hover {
+        background-color: transparent;
+    }
+    .navbar-nav .nav-item a {
+        color: #083f88;
+        font-size: 14px;
+        font-family: 'StagSansBook';
+    }
+    li.mega-menu-item {
+        float: left;
+        padding: 10px;
+    }
+    li.mega-menu-item h2 {
+        font-size: 18px !important;
+    }
+    .mega-menu-item .menu {
+        padding-left: 0;
+    }    
+    .mega-menu-item .widgettitle {
+        padding: .25rem 1.5rem;
+    }   
+    .navbar a:hover {
+        text-decoration: none;
+    }
+    .navbar-nav .nav-item {
+        padding-right: 3rem;
+        padding-bottom: .5rem;        
+    }
+    .navbar-nav .nav-item:last-of-type {
+        padding-right: 0;     
+    }    
+    .navbar .container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    a#logo {
+        padding-bottom: 0.7rem;
+    }
+    
+  }
+  .dropdown.show b.caret {
+    transform: rotate(180deg);
+  }
+  b.caret {
+    -webkit-transition: -webkit-transform .2s ease-in-out 0s;
+            transition:         transform .2s ease-in-out 0s;
+  }
+  b.caret {
+    content: url('/wp-content/uploads/2020/02/caret-blue.png');
+    display: inline-block;
+    vertical-align: middle;
+}
+.mega-menu-parent:hover b.caret {
+    content: url('/wp-content/uploads/2020/02/caret-red.png');
+}
+.current-menu-item b.caret {
+    content: url('/wp-content/uploads/2020/02/caret-red.png');
+}
+html .dropdown-toggle::after {
+    display: none;
+}
+nav.navbar.navbar-expand-md.navbar-light.bg-white.pb-0 {
+    /* box-shadow: 0px 1px 5px 0px #a6a6a6; */
+    border-bottom: 1px solid #ababab;
+}
+.mega-menu-parent.current-menu-item.active a {
+    color: #ff0000;
+}
+
+
+  /* Breadcrumbs */
+
+  .breadcr {background: #d4e2f5;padding: 9px 0px;}
+
+
+  /* FOOTER */
+
+  footer {background: #083f88;border-top: 5px solid #05316a;}
+  .footer-top h2, footer li a  {font-size: 14px !important;color: #fff !important;}
+  .footer-top section {float: left;}
+  footer .widget ul, footer li {
+    list-style: none;
+    padding: 0 !important;
+}
+  .footer-btm {padding-top: 20px;background: #05316a;}
+  .footer-btm .menu li {float: left;}
+  .footer-btm .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .widget li a {
+    font-size: 14px !important;
+    font-family: 'StagSansBook' !important;
+}
+footer h2.widget-title {
+    margin-bottom: 20px;
+}
+footer .menu {
+    margin-bottom: 0;
+}
+.text-red {
+    color: #ed1c24 !important;
+}
+.soc-icon:hover {
+    background: #ff0000;
+    transition-duration: .2s;
+}
+.soc-icon {
+    background: #fff;
+    transition-duration: .2s;
+}
+
+/* Vozni Park */
+
+.bus-image img {
+    width: 100%;
+    height: auto;
+}
+.bus-desc {
+    border: 1px solid #d4e2f5;
+}
+select#buscat {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #b3cdf0;
+    border-radius: 0;
+}
+.bus-desc {
+    min-height: 215px;
+}
+.bus-desc h2 a {color: #083f88;}
+.bus-desc h2 a:hover {color: #083f88;text-decoration: none;}
+form#buslist select, form#buslist option {
+    color: #083f88;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.form-control {
+    font-size: 16px;
+    font-family: 'StagSansMedium' !important;
+}
+.custom-select {
+    height: auto !important;
+    padding: 1rem 0.5rem !important;
+}
+.bus-slider img {
+    border: 1px solid #d4e2f5;
+}
+html .flex-direction-nav a:before {
+    color: #fff;
+}
+html div#slider .flex-direction-nav a {
+    width: 40px;
+    height: 55px;
+    top: 44%;
+}
+html div#carousel .flex-direction-nav a {
+    width: 30px;
+    height: 30px;
+    /* top: 30%; */
+}
+html div#carousel .flex-direction-nav a:before {
+    font-size: 25px;
+}
+html .flexslider {
+    margin: 0 0 0px;
+    border: 0px solid #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.col-lg-6.bus-slider {
+    padding-left: 0;
+}
+
+.bus-icon {
+    content: url(/wp-content/uploads/2020/01/autobus-1.png);
+    max-width: 18px;
+}
+.cap-icon {
+    content: url(/wp-content/uploads/2020/01/sediste.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-Klimatizovan {
+    content: url(/wp-content/uploads/2020/01/klima.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-Audio-video {
+    content: url(/wp-content/uploads/2020/01/audio-video.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-Ski.boks {
+    content: url(/wp-content/uploads/2020/01/ski-box.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-Wireless {
+    content: url(/wp-content/uploads/2020/01/wifi.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-Navigacija {
+    content: url(/wp-content/uploads/2020/01/navigacija.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-Kafe {
+    content: url(/wp-content/uploads/2020/01/kafe-aparat.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-Frižider {
+    content: url(/wp-content/uploads/2020/01/frizider.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-Set.stolovi {
+    content: url(/wp-content/uploads/2020/01/sediste-sa-stolom.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+span.icon-WC {
+    content: url(/wp-content/uploads/2020/01/wc.png);
+    max-width: 18px;
+    margin-right: 5px;
+}
+html .flex-direction-nav a.flex-next:before {
+    content: url(/wp-content/uploads/2020/01/next.png);
+}
+html .flex-direction-nav a.flex-prev:before {
+    content: url(/wp-content/uploads/2020/01/prev.png);
+}
+
+ 
+
+/* Burger Menu */
+.navbar-light .navbar-toggler {
+    border: none;
+}
+html button:focus {
+    outline: none;
+    outline: none;
+}
+/* Icon 1 */
+.animated-icon1, .animated-icon2, .animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+    
+    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    }
+    
+    .animated-icon1 span {
+    background: #083f88;
+    }
+    
+    
+    
+    .animated-icon1 span:nth-child(1) {
+    top: 0px;
+    }
+    
+    .animated-icon1 span:nth-child(2) {
+    top: 10px;
+    }
+    
+    .animated-icon1 span:nth-child(3) {
+    top: 20px;
+    }
+    
+    .animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    }
+    
+    .animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+    }
+    
+    .animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    }
+    
+    /* O Nama  */
+
+    .page-template-page-o-nama div#content {
+        padding-top: 0px;
+    }
+
+    /* .page-template-page-o-nama .jumbotron-fluid {
+        background-image: url(/wp-content/uploads/2020/01/o-nama.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+    /* Kontakt */
+
+    html .formcraft-css .fc-form.field-border-hidden .form-element .form-element-html textarea {
+        border-color: #b3cdf0 !important;
+    }
+    html .formcraft-css .fc-form.field-border-hidden .form-element .form-element-html input[type=text], 
+    html .formcraft-css .fc-form.field-border-hidden .form-element .form-element-html select {
+        border-bottom-color: #b3cdf0 !important;
+    }
+    input::placeholder {
+        color: #b3cdf0 !important;
+    }
+    .kontakt-info h3 a, .kontakt-info h5 a {
+        color: #083f88;
+    }
+    .page-template-page-kontakt thead th {
+        border: none !important;
+        padding-bottom: 20px !important;
+    }
+    .page-template-page-kontakt tbody tr th, tbody tr td {
+        border-top: none !important;
+        border-bottom: 1px solid  #b3cdf0;
+    }
+    .fc-form label.has-focus input {
+        border-top: 1px solid #b3cdf0 !important;
+        border-right: 1px solid #b3cdf0 !important;
+        border-left: 1px solid #b3cdf0 !important;
+    }
+    html body .formcraft-css .fc-form .form-element.is-required-true .field-cover .main-label>span::after {
+        /* color: #083f88; */
+        top: -3px;
+        right: -8px;
+        font-size: 20px;
+    }
+
+
+
+
+    /* Prodajna mesta */
+
+    .prod-mesta dd a {
+        color: #083f88;
+    }
+
+    .row.prod-mesta {
+        border-bottom: 1px solid #d4e2f5;
+    }
+    .prod-mesta p {
+        margin-bottom: 0;
+        line-height: 1.3;
+    }
+    .facetwp-type-hierarchy_select .col-lg-6 {
+        max-width: 45%;
+    }
+    .mesta-select select.facetwp-hierarchy_select {
+        border-bottom: 1px solid #b3cdf0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #083f88;
+        border-radius: 0;
+    }
+    .facetwp-facet.facetwp-facet-poslovnice.facetwp-type-hierarchy_select {
+        display: flex;
+        justify-content: center;
+    }
+    .custom-select:focus {
+        box-shadow: none;
+    }
+    .facetwp-type-hierarchy_select label{
+        position: absolute;
+        top: 0px;
+        left: 55px;
+    }
+    html .custom-select:disabled {
+        background-color: transparent;
+    }
+    table tbody {
+        border-top: none !important;
+    }
+    html .table td, html .table th {
+        vertical-align: middle;
+    }
+
+
+    /* Aktuelno */
+
+    .datum {
+        color: #083f88b5  !important;
+        line-height: 1.3;
+    }
+    .aktuelno-left .card-body {
+        min-height: 225px;
+    }
+    .aktuelno-left .card, .aktuelno-right .card {
+        border: 1px solid #d4e2f5;
+    }
+    h5.text-red {
+        color: #083f88b5  !important;
+    }
+    .akt-single:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .single-aktuelno p {
+        text-align: justify;
+    }
+    img.img-fluid.aktuelno-s.image-wrapper.float-left.mb-lg-0.mr-lg-3.mb-3.col-lg-6.px-0 {
+        max-width: 475px;
+    }
+
+
+    /* Ekonomski pokazatelji */
+
+    #ekon-tabs .tab-pane {
+        background: #083f88;
+    }
+    #ekon-tabs .tab-pane a:hover, #ekon-tabs .tab-pane p:hover {
+        color: #ff0000 !important;
+        text-decoration: none;
+        transition-duration: 0.3s;
+    }
+    #ekon-tabs .tab-pane a {
+        transition-duration: 0.3s;
+    }
+    #ekon-tabs .tab-pane a p, #ekon-tabs .tab-pane a p {
+        transition-duration: 0.3s;
+    }
+    .file-download img {
+        max-width: 20px;
+    }
+
+    /* Rezultati */
+
+    #results thead th {
+        border: none;
+        font-weight: 400;
+    }
+    .result-info[aria-expanded="true"] {
+        background-color: #083f88 !important;
+        color: #fff;
+    }
+    .result-info tr:hover {
+        background-color: #2470d5 !important;
+        color: #fff;
+        cursor: pointer;
+    }
+    .ui-datepicker-header {
+        background: #083f88;
+        color: #fff;
+        font-weight: 400;
+    }
+    .ui-datepicker-calendar thead th {
+        color: #2470d5;
+    }
+    .ui-datepicker-unselectable .ui-state-default {
+        color: #c7c7c7;
+    }
+    .ui-state-default {
+        color: #000;
+    }
+    a.ui-state-default.ui-state-highlight {
+        border: 1px solid #2470d5;
+    }
+    a.ui-state-default.ui-state-active, a.ui-state-default:hover {
+        background: #083f88;
+        color: #fff;
+    }
+    div#ui-datepicker-div {
+        border: 2px solid #2470d5;
+        padding: 0;
+        max-width: 244px;
+    }
+    input#datepicker {
+        min-width: 245px;
+    }
+    span.ui-icon.ui-icon-circle-triangle-w {
+        content: url(/wp-content/uploads/2020/03/16.png);
+    }
+    span.ui-icon.ui-icon-circle-triangle-e {
+        content: url(/wp-content/uploads/2020/03/16r.png);
+    }
+    html div#ui-datepicker-div .ui-datepicker-next-hover {
+        top: 2px;
+        right: 2px;
+    }
+    html div#ui-datepicker-div .ui-datepicker-prev-hover {
+        top: 2px;
+        left: 2px;        
+    }
+    .ajax-result {
+        display: none;
+        position: absolute;
+        max-height: 215px;
+        overflow-y: scroll;
+        width: 100%;
+        max-width: 229px;
+        background: #fff;
+        border: 2px solid #2470d5;
+    }
+    .ajax-result ul {
+        list-style: none;
+        padding: 0px;
+        margin-bottom: 0;
+    }
+    .ajax-result ul li {
+        color: #000;
+        font-size: 16px !important;
+        cursor: pointer;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #b3cdf0;
+    }
+    div#bus-lines {
+        z-index: 9;
+    }
+    div#ui-datepicker-div {
+        z-index: 99 !important;
+        max-width: 230px;
+    }
+    tbody.collapse, tbody.collapsing {
+        background: #2470d5 !important;
+        color: #fff;
+    }
+    tbody.collapse th, tbody.collapsing th {
+        font-weight: 400 !important;
+    }
+    .ajax-result ul li:hover {
+        background: #2470d5;
+        color: #fff;
+    }
+    .selectpicker-domaci, .selectpicker-medjunarodni, .datepicker-bus {
+        min-width: 230px;
+    }
+    #bus-lines .nav-link:hover {
+        color: #ff0000 !important;
+    }
+
+
+    .topbutton {
+        height:50px;
+        width:50px;
+        position:fixed;
+        right:5px;
+        bottom:5px;
+        z-index:1;
+        background-image: url("/wp-content/uploads/2020/03/top.png");
+        background-repeat:no-repeat;
+        display:none;
+        }
+
+        img.img-fluid.soc-icon {
+            width: 25px;
+        }
+
+
+        #gradski-search .facetwp-facet.facetwp-facet-gp_linije.facetwp-type-search, #gradski-search .facetwp-facet.facetwp-facet-gp_grad.facetwp-type-hierarchy_select {
+            margin-bottom: 0;
+        }
+        #gradski-results .file-download {
+            padding-top: 0 !important;
+        }
+        #gradski-inner .nav-item {
+            border: none;
+        }
+        #gradski-inner input.facetwp-search {
+            min-height: 40px;
+            background: #2470d5;
+            color: #fff;
+            border: none;
+            padding: 0px 20px;
+        }
+        #gradski-results td:hover h4 {
+            color: #fff;
+            text-decoration: none !important;
+        }
+        #gradski-results a:hover {
+            text-decoration: none !important;
+        }
+        .facetwp-overlay {
+            background: transparent !important;
+            width: 200px !important;
+        }
+        #gradski-results thead th {
+            border: none;
+        }
+        #gradski-inner select.facetwp-hierarchy_select {
+            min-height: 40px;
+            background: #2470d5;
+            border: none;
+            color: #fff;
+            padding: 0 20px;
+            margin-right: 0.5rem;
+        }
+        #gradski-results {
+            margin-top: -330px;
+        }
+        #gradski-results h4 {
+            text-transform: uppercase;
+        }
+
+        /* Single post */
+        .mw-600 {
+            max-width: 480px;
+        }
+        ul.post-categories {
+            padding-left: 0;
+            list-style: none;
+        }
+        .cat-list p {
+            margin-bottom: 0;
+        }
+        .single-post h1 {
+            font-size: 22px !important;
+        }
